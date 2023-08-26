@@ -3,24 +3,24 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://2100.yusufsait.com',
+	base: '/',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: '2100',
+			description: 'A comprehensive guide to the ideal day in the year 2100.',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				youtube: 'https://www.youtube.com/@the2100project',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: 'Home',
+					link: '/'
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+					label: 'Introduction',
+					autogenerate: {directory: 'introduction'}
+				}
 			],
 		}),
 	],
