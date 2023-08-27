@@ -18,8 +18,24 @@ export default defineConfig({
 					link: '/'
 				},
 				{
-					label: 'Introduction',
-					autogenerate: {directory: 'introduction'}
+					label: 'Sleep',
+					autogenerate: {directory: 'sleep'}
+				},
+				{
+					label: 'Diet',
+					autogenerate: {directory: 'diet'}
+				},
+				{
+					label: 'Exercise',
+					autogenerate: {directory: 'exercise'}
+				},
+				{
+					label: 'Supplementation',
+					autogenerate: {directory: 'supplementation'}
+				},
+				{
+					label: 'Mastery',
+					autogenerate: {directory: 'mastery'}
 				}
 			],
 		}),
