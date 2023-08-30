@@ -1,4 +1,4 @@
 ---
-title: "Why Strive for Mastery?"
+title: "Habits"
 description: Currently undefined.
 ---
